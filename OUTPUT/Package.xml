@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <name>Map Man Save</name>
+  <id>alexankitty,teolicht.mapmansave</id>
+  <author>Alexankitty, Teolicht</author>
+  <version>1.0</version>
+  <link />
+  <description>Makes the map man in the classroom able to save your progress.</description>
+</Metadata>
