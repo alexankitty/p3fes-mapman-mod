@@ -1,0 +1,8 @@
+import( "ORIGINAL/TT/NPCCOMU.BF" );
+import( "map_options.flow" );
+import( "diamap.msg" );
+
+void NPC_SCRIPT_KEIJIBAN_hook()
+{
+	keijiban_script();
+}
