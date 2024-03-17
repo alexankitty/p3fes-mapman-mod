@@ -1,0 +1,56 @@
+void keijiban_script()
+{
+    OPEN_MSG_WIN();
+    
+    if ( BIT_CHK( 2680 ) == 0 )
+    {
+        MSG( SCR_MSG_DAIMAP_FIRST_NEW );
+        CLOSE_MSG_WIN();
+        MSG_HELP( SCR_MSG_DAIMAP_TUTORIAL_NEW );
+        OPEN_MSG_WIN();
+        MSG( SCR_MSG_DAIMAP_CALL_FIRS_NEW );
+        BIT_ON( 2680 );
+    }
+    else if ( BIT_CHK( 2791 ) == 0 )
+    {
+        MSG( SCR_MSG_DAIMAP_CALL_2ND_NEW );
+        BIT_ON( 2791 );
+    }
+    else if ( ( ( ( CHECK_TIME_SPAN( 5, 11, 5, 0x10 ) == 1 ) || ( CHECK_TIME_SPAN( 7, 6, 7, 13 ) == 1 ) ) || ( CHECK_TIME_SPAN( 10, 5, 10, 10 ) == 1 ) ) || ( CHECK_TIME_SPAN( 12, 7, 12, 12 ) == 1 ) )
+    {
+        MSG( SCR_MSG_DAIMAP_CALL_SIKE_NEW );
+    }
+    else 
+    {
+        MSG( SCR_MSG_DAIMAP_CALL_NEW );
+    }
+
+    SEL_CHK_PAD( 6, 2 );
+	SEL_CHK_PAD( 7, 1 );
+	int selection = SEL( DAIMAP_YESNO_SEL_NEW );
+    
+    if ( selection == 0 )
+    {
+		CLOSE_MSG_WIN();
+	    Save();
+    }
+	if ( selection == 1 )
+    {
+        CLOSE_MSG_WIN();
+        BIT_ON( 3091 );
+        FADE( 1, 0 );
+        FADE_SYNC();
+        CALL_MAP( 0 );
+    }
+    CLOSE_MSG_WIN();
+}
+
+void Save()
+{
+    FADE( 5, 10 );
+    FADE_SYNC();
+    FUNCTION_018F();
+    FUNCTION_0190();
+    FUNCTION_000D( 0 );
+    FADE_SYNC();
+}
