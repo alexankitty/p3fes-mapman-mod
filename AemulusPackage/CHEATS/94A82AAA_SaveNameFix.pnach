@@ -1,0 +1,7 @@
+// Adds classroom save string when selecting your save by teolicht
+
+patch=1,EE,006b33e4,word,00000006 // Classroom id added into saves id list
+patch=1,EE,006b33e8,word,00000003
+patch=1,EE,006b33ec,word,00679432
+
+patch=1,EE,007cda7c,word,00000014 // Increased number of save strings from 13 to 14

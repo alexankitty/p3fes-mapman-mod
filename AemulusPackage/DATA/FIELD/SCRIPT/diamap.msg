@@ -1,0 +1,40 @@
+[msg SCR_MSG_DAIMAP_FIRST_NEW [Student with Glasses]]
+[f 0 8 65278][f 1 31]Greetings and salutations... How can[n]I be of assistance?[n][f 0 4][e]
+[f 0 8 65278][f 1 31]Since you're a transfer student,[n]you're probably unfamiliar with[n]the Bay Area.[n][f 0 4][e]
+
+[msg SCR_MSG_DAIMAP_TUTORIAL_NEW]
+[f 0 8 65278][f 1 31][f 2 2 65535 65535][f 2 3 65535 1]When you speak to this student,[n]the Town Map will be displayed.[n][f 0 4][e]
+[f 0 8 65278][f 1 31]Select a location, and you will[n]resume play from there.[n][f 0 4][e]
+[f 0 8 65278][f 1 31]You may also choose to[n]save your progress, as well.[n][f 0 4][e]
+
+[msg SCR_MSG_DAIMAP_CALL_FIRS_NEW [Student with Glasses]]
+[f 0 8 65278][f 1 31]Would you like to know what popular[n]destinations are in the Bay Area?[n][f 0 4][e]
+[f 0 8 65278][f 1 31]Or would you like me to record[n]your experiences here so far?[n][f 0 4][e]
+
+[msg SCR_MSG_DAIMAP_CALL_2ND_NEW [Student with Glasses]]
+[f 0 8 65278][f 1 31]Hey, have you grown accustomed to[n]the Bay Area yet?[n][f 0 4][e]
+[f 0 8 65278][f 1 31]There are many interesting places to go,[n]with or without friends.[n][f 0 4][e]
+[f 0 8 65278][f 1 31]I love the aroma of coffee at Paulownia[n]Mall...[n][f 0 4][e]
+[f 0 8 65278][f 1 31]and if you're feeling brave, you can[n]try the mystery burger at the local[n]strip mall.[n][f 0 4][e]
+[f 0 8 65278][f 1 31]The movie theater changes flicks every[n]month. I often go there alone...[n][f 0 4][e]
+[f 0 8 65278][f 1 31]...Don't get me wrong. It's not that[n]I don't have any friends.[n][f 0 4][e]
+[f 0 8 65278][f 1 31]Anyway, are you interested in popular[n]destinations in the Bay Area?[n][f 0 4][e]
+[f 0 8 65278][f 1 31]Or would you like me to record[n]your experiences here so far?[n][f 0 4][e]
+
+
+[msg SCR_MSG_DAIMAP_CALL_SIKE_NEW [Student with Glasses]]
+[f 0 8 65278][f 1 31]Hey, exams are coming up... I'm so[n]excited.[n][f 0 4][e]
+[f 0 8 65278][f 1 31]Why? Because it gives me a chance to[n]flaunt my knowledge.[n][f 0 4][e]
+[f 0 8 65278][f 1 31]This time, I'm gonna get the highest[n]score in the entire 11th grade, and[n]impress Mitsuru-senpai...[n][f 0 4][e]
+[f 0 8 65278][f 1 31]...Um, please disregard that last[n]comment.[n][f 0 4][e]
+[f 0 8 65278][f 1 31]So, would you like to know what popular[n]destinations are in the Bay Area?[n][f 0 4][e]
+[f 0 8 65278][f 1 31]Or would you like me to record[n]your experiences here so far?[n][f 0 4][e]
+
+
+[msg SCR_MSG_DAIMAP_CALL_NEW [Student with Glasses]]
+[f 0 8 65278][f 1 31]Greetings and salutations... Would you[n]like to know what popular destinations[n]are in the Bay Area?[n][f 0 4][e]
+[f 0 8 65278][f 1 31]Or would you like me to record[n]your experiences here so far?[n][f 0 4][e]
+[sel DAIMAP_YESNO_SEL_NEW top]
+[f 0 8 65278][f 1 31]"Record my progress."[e]
+[f 0 8 65278][f 1 31]"Destinations, please."[e]
+[f 0 8 65278][f 1 31]"Not now."[e]
